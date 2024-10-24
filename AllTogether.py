@@ -6,7 +6,7 @@ for _ in range(10):
     random_numbers.append(random.randint(1,100))
 
 for number in random_numbers:
-    print(number, end = ', ')
+    print(number, end = ' ')
 
 i = 0
 while i < len(random_numbers):
